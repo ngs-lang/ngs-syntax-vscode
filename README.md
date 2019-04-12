@@ -1,4 +1,4 @@
 # ngs-syntax-vscode
 NGS syntax file for vscode
 
-Copy content to ~/.vscode/extensions/ngs
+Copy the content to ~/.vscode/extensions/ngs
