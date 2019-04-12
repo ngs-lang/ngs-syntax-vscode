@@ -59,3 +59,12 @@ typings/
 
 # next.js build output
 .next
+
+# macos specifics
+.DS_Store
+__MACOSX
+
+# editors specifics
+.idea
+.vscode
+*.save

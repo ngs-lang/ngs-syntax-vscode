@@ -1,4 +1,5 @@
 # ngs-syntax-vscode
-NGS syntax file for vscode
+NGS syntax file for vscode -- work-in-progress highly based on the bash vscode extension
 
-Copy the content to ~/.vscode/extensions/ngs
+## Install
+Copy the content to ~/.vscode/extensions/ngs or run 'make install'

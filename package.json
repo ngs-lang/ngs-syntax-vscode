@@ -1,0 +1,22 @@
+{
+    "name": "ngs",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": ">=0.9.0-pre.1"
+    },
+    "publisher": "Ricardo Gomes",
+    "contributes": {
+        "languages": [{
+            "id": "ngs",
+            "aliases": ["ngs", "NGS", "ngslang"],
+            "extensions": [".ngs"],
+            "firstLine": "^#!.*\\b(ngs).*|^#\\s*-\\*-[^*]*mode:\\s*shell-script[^*]*-\\*-",
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ngs",
+            "scopeName": "source.ngs",
+            "path": "./syntaxes/ngs.tmLanguage.json"
+        }]
+    }
+}
