@@ -3,6 +3,6 @@ default:
 
 .PHONY: install
 install:
-	-rm -r ~/.vscode/extensions/ngs
+	-rm -rf ~/.vscode/extensions/ngs
 	mkdir ~/.vscode/extensions/ngs
-	cp -r . ~/.vscode/extensions/ngs/
+	cp -r ngs/* ~/.vscode/extensions/ngs
